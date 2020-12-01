@@ -1,0 +1,35 @@
+.verde {
+    color: green;
+}
+
+.vermelho {
+    color: red;
+}
+
+.azul {
+    color: blue;
+}
+
+.amarelo {
+    color: rgb(251, 255, 0);
+}
+
+hr {
+    height: 5px;
+}
+
+hr:nth-of-type(4n) {
+    background-color: blue;
+}
+
+hr:nth-of-type(4n+1) {
+    background-color: greenyellow;
+}
+
+hr:nth-of-type(4n+2) {
+    background-color: red;
+}
+
+hr:nth-of-type(4n+3) {
+    background-color: yellow;
+}
